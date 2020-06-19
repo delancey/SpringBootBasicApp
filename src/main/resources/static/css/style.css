@@ -1,0 +1,134 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #bde0f1;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+   color: #FCE786;
+   font-size: 48px;
+}
+
+h3{
+    size: 22px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+p, label {
+    color: rgb(100, 100, 100);
+}
+    label {
+        display: inline-block;
+        width: 200px;
+        margin: 5px;
+        text-align: left;
+    }
+    input[type=text], input[type=password], select {
+        display: inline-block;
+        width: 200px;
+        height: 25px;
+        background-color: #eee;
+        border-style: none;
+    }
+    
+    .button {
+        width: 420px;
+        padding: 7px;
+        margin: 10px 0;
+        background-color:#E67235;
+        color: white;
+        border: none;
+    }
+
+    .button:hover{
+        background-color: orange;
+        color: blue;
+    }
+
+    .roadblock{
+        text-align: center;
+    }
+
+    img{
+        height: 600px;
+        width: auto;
+        margin: 20px auto;   
+        border: 20px groove #777; 
+    }
+    figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: #bf5118;
+    }
+
+    .icon{
+        width: 50px;
+        height: auto;
+    }
+
+       
+    button {
+        width: 150px;
+        height:150px;
+        border-radius: 100%;
+        padding: 7px;
+        margin: 10px 0;
+        background-color:#eee;
+        color: white;
+        border: none;
+    }
+
+    .toImage{
+        width: 75px;
+        height:55px;
+        border-radius: 100%;
+        padding-top: 40px;
+        padding-bottom:5px;
+        padding-left:25px;
+        padding-right: 5px;
+        background-color:#eee;
+        color: #E67235;
+        border: none;
+
+    }
+
+    .toImage:hover{
+        background-color: #E67235;
+        color: blue;
+    }
+
+    .toImage:hover{
+        color: white;
+    }
+
+  
+
+    footer{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
